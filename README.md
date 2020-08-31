@@ -1,5 +1,5 @@
 # Get our  Timezone time in php 
-In this repo, you will get "How do I get the current date and time in PHP?" 
+In this repo, you will get "How do I get the current date and time in PHP based on zone ?" 
 
 # For this Code are : 
 
