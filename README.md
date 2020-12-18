@@ -13,7 +13,7 @@ $date = new DateTime('now', new DateTimeZone($timezone_name));
 ```
 
 
-# If you get date from excel file then you have top apply these solution  (date is short date)
+# If you get date from excel file then you have to apply these solution  (date is short date)
 
 ```html
 Please use this formula to change from Excel date to Unix date, then you can use "gmdate" to get the real date in PHP:
