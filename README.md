@@ -4,6 +4,7 @@ In this repo, you will get "How do I get the current date and time in PHP based 
 # For this Code are : 
 
 ```php
+$timezone_name = date_default_timezone_get();
 $timezone_offset_minutes = 330;
 $timezone_name = timezone_name_from_abbr("", $timezone_offset_minutes*60, false);
 
