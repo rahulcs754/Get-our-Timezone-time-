@@ -1,6 +1,12 @@
 # Get datetime based on area Timezone  in php 
 In this repo, you will get "How do I get the current date and time in PHP based on zone ?" 
 
+# Get current month date   and get after 2 month last date 
+
+```mysql
+`date_submitted` BETWEEN  DATE_FORMAT(NOW() ,'%Y-%m-01') AND LAST_DAY(DATE(NOW()) + INTERVAL 2 MONTH) 
+```
+
 # For this Code are : 
 
 ```php
