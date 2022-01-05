@@ -1,6 +1,32 @@
 # Get datetime based on area Timezone  in php 
 In this repo, you will get "How do I get the current date and time in PHP based on zone ?" 
 
+
+# some script that provide month last date ,  week last date
+
+```php
+
+$week_start = strtotime('last Sunday', time());
+$week_end = strtotime('next Sunday', time());
+
+$month_start = strtotime('first day of this month', time());
+$month_end = strtotime('last day of this month', time());
+
+$year_start = strtotime('first day of January', time());
+$year_end = strtotime('last day of December', time());
+
+echo date('D, M jS Y', $week_start).'<br/>';
+echo date('D, M jS Y', $week_end).'<br/>';
+
+echo date('D, M jS Y', $month_start).'<br/>';
+echo date('D, M jS Y', $month_end).'<br/>';
+
+echo date('D, M jS Y', $year_start).'<br/>';
+echo date('D, M jS Y', $year_end).'<br/>';
+```
+
+
+
 # Get current month date   and get after 2 month last date 
 
 ```mysql
